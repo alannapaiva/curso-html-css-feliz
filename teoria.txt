@@ -1,0 +1,93 @@
+HTML
+    - conteudo
+    - tag
+    - semântico 
+    - estruturação 
+
+header 
+    heading = cabeçalho h1-h6, usa-se no máximo ate o h3, o html a principio foi criado para compartilhamento de teses cientificas
+    html semântico é usar as tags corretas para demarcar o conteudo corretamente, facilita o leitor de entender 
+    cuidar da estruturação do html
+    
+NAV 
+    -navigation 
+
+tag <a>
+    anchor, aonde eu quero chegar, linkagem 
+
+src 
+    source 
+
+Atributos globais
+    <em> dar enfase 
+    <lang = "en">  definir linguagem
+
+Emmet 
+    emmet é uma extensao que se instala nos editores de texto, focado em escrever html e css de uma forma mais simples
+
+
+CSS 
+    - visual
+    - animação (css3)
+
+RGB
+     Red, Green, Blue
+     cores baseadas no sistema hexadecimal, do 0 ao F 
+     #f00 , #0f0, #00f
+
+     rgb(255, 255, 255)  usa o sistema decimal, o maximo é 255
+
+reset
+
+font-weight
+    "força" deixar bold
+
+font style
+    inclinação da palavra 
+
+ID
+    chamada com o # 
+
+line-height:
+    definir a altura do texto com a mesma altura da caixa
+    so funciona se tiver apenas uma linha
+    tem que ser do mesmo px do height
+
+display-inline 
+    tags <a> tem a propriedade display-inline
+    permite que fiquem lado a lado
+    fica o máximo possivel para a esquerda 
+    não permite usar o width e o height 
+    a caixa ganha um comportamente de palavra, a tag a vira uma palavra só
+    o que define o tamanho da caixa por padrão, é o conteudo
+
+disply-block
+    mesma linha
+    permite usar width e height 
+    width 100% do pai (tag que está abrigando)
+    height conteudo 
+
+inline-block
+    mesma linha
+    permite definir width and right 
+    comportamento de palavra
+    tamanho é definido pelo conteudo
+
+margin
+    lado de fora do elemento
+
+padding
+    lado interno do elemento
+
+:: pseudo elemento
+: pseudo classe 
+
+display: flex = a propriedade define se um elemento é tratado como um elemento de bloco ou inline e o layout usado para seus filhos such as flow layout, grid or flex.
+    justify-content 
+        alinhamento no horizontal
+        space-between = vai para as extremidades do elemento 
+    align-items
+
+cursor: pointer
+    muda para a mãozinha do mickey 
+
