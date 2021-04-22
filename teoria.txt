@@ -1,15 +1,15 @@
-HTML
+tag html
     - conteudo
     - tag
     - semântico 
     - estruturação 
 
-header 
+tag header 
     heading = cabeçalho h1-h6, usa-se no máximo ate o h3, o html a principio foi criado para compartilhamento de teses cientificas
     html semântico é usar as tags corretas para demarcar o conteudo corretamente, facilita o leitor de entender 
     cuidar da estruturação do html
     
-NAV 
+tag nav
     -navigation 
 
 tag <a>
@@ -45,8 +45,16 @@ font-weight
 font style
     inclinação da palavra 
 
-ID
-    chamada com o # 
+id
+    chama no css com o # 
+    usado uma unica vez, não pode ter mais de um id com o mesmo nome
+    sua finalidade é identificar o elemento durante a vinculação (usando um identificador de fragmento), script ou estilo (com CSS). 
+
+class
+    chama no css com " . "
+    lista de classes de um elemento, é um atributo global
+    pode ser usada/chamada varias vezes no mesmo código
+    classes permitem que CSS e JavaScript selecionem e acessem elementos específicos por meio dos seletores de classe ou funções como o método Document.getElementsByClassName (). 
 
 line-height:
     definir a altura do texto com a mesma altura da caixa
@@ -91,3 +99,15 @@ display: flex = a propriedade define se um elemento é tratado como um elemento 
 cursor: pointer
     muda para a mãozinha do mickey 
 
+tag section
+    utilizada para criar sessões dentro da pagina e tudo dentro dela se "conversa"/comunica, estão relacionados
+    definição de conteudo
+
+tag div 
+    não tem valor semântico 
+    todos os elementos dentro da tag não tem relação entre si
+    so usa quando precisa agrupar algum tipo de conteudo para dar um comportamento visual
+
+
+
+ 
