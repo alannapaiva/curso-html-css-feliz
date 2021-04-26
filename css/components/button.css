@@ -2,6 +2,7 @@
     display: inline-block;
     background-color: #FF789E;
     color: #fff;
+    text-decoration: none;
     box-shadow: 5px 5px 0px black;
     /*line-height: 60px;*/
     font-size: 20px;

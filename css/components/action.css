@@ -5,11 +5,7 @@ h1{
 }
 
 
-nav{
-    text-align: right;
-}
-
-a{
+.action{
     display: inline-flex;
     align-items: center;
     color: #fff;
@@ -20,7 +16,7 @@ a{
     margin-right: 30px;
 }
 
-a::before{
+.action::before{
     content: " ";
     display: inline-block;
     background-color: #FF789E;
