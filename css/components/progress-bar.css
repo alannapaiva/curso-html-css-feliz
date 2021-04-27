@@ -5,7 +5,7 @@
     height: 40px;
 }
 
-progress::-webkit-progress-bar,
-    progress::-moz-progress-bar {
-      background-color: #BB6CFE;
+.progress-bar::-webkit-progress-bar,
+.progress-bar::-moz-progress-bar  {
+    background-color: #BB6CFE;
 }
