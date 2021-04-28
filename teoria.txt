@@ -108,6 +108,15 @@ tag div
     todos os elementos dentro da tag não tem relação entre si
     so usa quando precisa agrupar algum tipo de conteudo para dar um comportamento visual
 
+dl 
+    description list
+    componente para listar algo de forma descritiva 
+
+article
+
+target="_blank"
+    vai abrir o link em outra página 
+    
 
 
  
