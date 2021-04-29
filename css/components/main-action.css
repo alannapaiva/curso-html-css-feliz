@@ -5,7 +5,7 @@ h1{
 }
 
 
-.action{
+.main-action{
     display: inline-flex;
     align-items: center;
     color: #fff;
@@ -16,7 +16,7 @@ h1{
     margin-right: 30px;
 }
 
-.action::before{
+.main-action::before{
     content: " ";
     display: inline-block;
     background-color: #FF789E;
