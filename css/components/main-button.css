@@ -1,4 +1,4 @@
-.button{
+.main-button{
     display: inline-block;
     background-color: #FF789E;
     color: #fff;
@@ -12,7 +12,7 @@
     transition: transform 200ms cubic-bezier(.45,.97,.68,2.48);
 }
 
-.button:hover{
+.main-button:hover{
     transform: scale(1.08);
 }
 
