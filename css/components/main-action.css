@@ -15,6 +15,9 @@ h1{
     text-decoration: none;
     margin-right: 30px;
 }
+.main-action:hover{
+    color: #7C5E99;
+}
 
 .main-action::before{
     content: " ";
