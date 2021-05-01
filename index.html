@@ -20,6 +20,9 @@
         <link rel="stylesheet" href="./css/components/card-project.css">
         <link rel="stylesheet" href="./css/components/wrapper-card.css">
         <link rel="stylesheet" href="./css/components/main-description.css">
+        <link rel="stylesheet" href="./css/components/button-arrow.css">
+        <link rel="stylesheet" href="./css/components/node-card.css">
+        <link rel="stylesheet" href="./css/components/main-carousel.css">
 
         <title>Alanna Paiva</title>
     </head>
@@ -28,11 +31,11 @@
         <header class="main-header">
             <img src="./assets/img/banner/logo2.png" width="60px"; height="60px">
             <nav> 
-                <a class="main-action" href="" lang="en">Skills</a>
-                <a class="main-action" href="">Projetos</a>
-                <a class="main-action" href="">Sobre</a>
-                <a class="main-action" href="">Contatos</a>
-                <a class="main-button" href="" lang="en">Download CV </a>
+                <a class="main-action" href="#skills" lang="en">Skills</a>
+                <a class="main-action" href="#projetos">Projetos</a>
+                <a class="main-action" href="#sobre">Sobre</a>
+                <a class="main-action" href="#contatos">Contatos</a>
+                <a class="main-button" href="https://drive.google.com/file/d/1btQo5y99hg9D8vREGZQRF5uuFtdXHE76/view?usp=sharing" target="_blank" lang="en">Download CV </a>
             </nav>
         </header>
 
@@ -44,12 +47,12 @@
                 </div>
                 
                 <div class="navigation"> 
-                    <a class="main-button" href="" lang="en">Download CV </a>
-                    <a class="main-button" href="" lang="en">Contatos</a>
+                    <a class="main-button" href="https://drive.google.com/file/d/1btQo5y99hg9D8vREGZQRF5uuFtdXHE76/view?usp=sharing" target="_blank" lang="en">Download CV </a>
+                    <a class="main-button" href="mailto:alannapaiva1@hotmail.com" lang="en">Contatos</a>
                 </div>
             </div>  
         </section>
-        <section class="main-section"> 
+        <section class="main-section" id="skills"> 
             <h2 class="main-title -second">Skills</h2>
             <div class="wrapper-skill">
                 <article class="skill-tec">
@@ -108,7 +111,7 @@
                 </article>
             </div>
         </section>
-        <section class="main-section -bgBlack -bdFirst">
+        <section class="main-section -bgBlack -bdFirst" id="projetos">
             <h2 class="main-title -second">Projetos</h2>
 
             <div class="wrapper-card"> 
@@ -130,12 +133,66 @@
             </div>
         </section>
 
-        <section class="main-section -bgSecond -bdPurple"> 
+        
+        <section class="main-section -bgSecond -bdPurple" id="sobre"> 
             <h2 class="main-title -second">Sobre</h2>
-            <p class="main-description">
-                Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
-            </p>
-        </section>
-    </body>
 
+            <section class="main-carousel">
+                <button class="button-arrow -left"><span class="content">Avançar</span></button>
+                
+            <div class="items"> 
+                <div class="elements"> 
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo"> 
+                            <img src="./assets/img/logo/logo-locaweb.png" alt="logo da locaweb">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2014</figcaption>
+                        <div class="logo"> 
+                            <img src="./assets/img/logo/logo-caelum.png" alt="logo da caelum">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2016</figcaption>
+                        <div class="logo"> 
+                            <img src="./assets/img/logo/logo.png" alt="logo da getninjas">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2017</figcaption>
+                        <div class="logo"> 
+                            <img src="./assets/img/logo/logo-caelum.png" alt="logo da caelum">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo"> 
+                            <img src="./assets/img/logo/logo-impulso.png" alt="logo da impulso">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2019</figcaption>
+                        <div class="logo"> 
+                            <img src="./assets/img/logo/logo-collabcode.png" alt="logo do collab">
+                        </div>
+                    </figure>
+                </div>
+            </div>
+
+                <button class="button-arrow -right"><span class="content">Voltar</span></button>
+
+        </section>
+        <p class="main-description">
+            Aspirante a  musicista clássica, dançarina de jazz nas horas vagas, graduanda em Engenharia da Computação  na Universidade Federal do Ceará 🎓. Sou uma desenvolvedora iniciante, estou aprendendo sempre um pouco de tudo, viciada em hobbies e atualmente estudando tecnologias para Desenvolvimento Web e um pouco de Python, atuo voluntariamente como Assessora Cultural no Centro Acadêmico e como Monitora de Programação Computacional.
+        </p>
+    </section>
+    <script src="./js/components/main-carousel.js"></script>
+</body>
 </html>
