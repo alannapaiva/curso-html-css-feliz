@@ -21,6 +21,6 @@
     cursor: pointer;
 }
 
-.main-button:hover{
+.main-button.-full:hover{
     transform: scale(1.01);
 }
